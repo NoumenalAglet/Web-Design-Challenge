@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(190, 189, 189);
+}
+
+.box {
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    background-color: rgb(214, 216, 216);
+}
+
+.navbar {
+    margin-right: 0px;
+    padding: 25px;
+}
+
+  .navbar-brand {
+    height: 70px;
+    width: 10%;
+    border-radius: 25px;
+    text-align: center;
+    font-size:  xx-large;
+
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.mt-3{
+  float: left;
+}
+
+@media (max-width: 700px) {
+    .navbar li {
+      padding: 10px;
+    }
+    body {
+      background-color: rgb(170, 167, 170);
+    }
+}
